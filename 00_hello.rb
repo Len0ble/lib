@@ -14,5 +14,6 @@ def ask_first_name
   puts "Quel est votre prénom ?"
   gets.chomp
 end
-
-
+#la méthode est appelée 
+first_name = ask_first_name
+say_hello(first_name)
